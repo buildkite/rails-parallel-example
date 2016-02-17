@@ -1,6 +1,5 @@
 {
   "name": "Rails Parallel Example",
-  "repository": "https://github.com/buildkite/rails-parallel-example.git",
   "steps": [
     {
       "type": "script",
