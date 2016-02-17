@@ -17,6 +17,13 @@ Files to note:
 
 In the [pipeline configuration file](.buildkite/pipeline.yml) the `parallelism` property for the test step is set to 20. When a build, the step will appear 20 times in the pipeline, each with different environment variables exposed so you can divvy up your test suite accordingly. You can then run 20 agents (on the same machine, or distributed) to work on the 20 jobs in parallel.
 
+```yml
+steps:
+  - name: ":rspec: %n"
+    command: "scripts/ci/setup.sh && scripts/ci/parallel_specs.sh"
+    parallelism: 20
+```
+
 See the [parallelizing builds guide](https://buildkite.com/docs/guides/parallelizing-builds) for more information to create parallelized and distributed builds with Buildkite.
 
 Consult the [Knapsack documentation](https://github.com/ArturT/knapsack) for configuring your database and dependent services to support running parallel steps on the one machine.
