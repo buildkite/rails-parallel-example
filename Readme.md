@@ -19,7 +19,7 @@ In the [pipeline configuration file](.buildkite/pipeline.yml) the `parallelism` 
 
 ```yml
 steps:
-  - name: ":rspec: %n"
+  - name: ":rspec:"
     command: "scripts/ci/setup.sh && scripts/ci/parallel_specs.sh"
     parallelism: 20
 ```
