@@ -4,7 +4,7 @@ emoji: ":rails:"
 color: "#FDF5F5"
 languages:
   - "Ruby"
-  - "YAML"
+  - "Shell"
 steps:
   - command: "buildkite-agent pipeline upload"
     label: ":pipeline:"
