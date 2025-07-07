@@ -56,6 +56,8 @@ Consult the [Knapsack documentation](https://github.com/ArturT/knapsack) for con
 
 See [Knapsack Pro version of this example pipeline](https://github.com/KnapsackPro/buildkite-rails-parallel-example-with-knapsack_pro) for how to perform dynamic splits/allocation of test nodes.
 
+<!-- docs:end -->
+
 ## License
 
 See [LICENSE.md](LICENSE.md) (MIT)
