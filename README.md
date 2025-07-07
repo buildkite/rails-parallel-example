@@ -61,6 +61,3 @@ See [Knapsack Pro version of this example pipeline](https://github.com/KnapsackP
 ## License
 
 See [LICENSE.md](LICENSE.md) (MIT)
-
-
-
