@@ -1,5 +1,10 @@
-# Used by the 'Add to Buildkite' button in the readme
 name: "Rails Parallel Example"
+description: "An example pipeline that runs Rails tests in parallel across multiple agents using Knapsack."
+emoji: ":rails:"
+color: "#FDF5F5"
+languages:
+  - "Ruby"
+  - "Shell"
 steps:
-  - label: ":pipeline:"
-    command: "buildkite-agent pipeline upload"
+  - command: "buildkite-agent pipeline upload"
+    label: ":pipeline:"
