@@ -1,24 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    diff-lcs (1.2.5)
+    diff-lcs (1.6.2)
     knapsack (1.6.0)
       rake
       timecop (>= 0.1.0)
     rake (13.0.6)
-    rspec (3.4.0)
-      rspec-core (~> 3.4.0)
-      rspec-expectations (~> 3.4.0)
-      rspec-mocks (~> 3.4.0)
-    rspec-core (3.4.2)
-      rspec-support (~> 3.4.0)
-    rspec-expectations (3.4.0)
+    rspec (3.13.1)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.5)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-mocks (3.4.1)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.5)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.4.0)
-    rspec-support (3.4.1)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.6)
     timecop (0.8.0)
 
 PLATFORMS
